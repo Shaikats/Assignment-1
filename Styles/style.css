@@ -78,7 +78,7 @@ body {
     color: #006A50;
     font-size: 18px;
     font-weight: 600;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-color: #006A50;
     border-radius: 8px;
   }
@@ -93,3 +93,47 @@ nav{
     width: 1300px; /* Set a fixed width for the page */
     margin: 0 auto; /* Center the content horizontally */
     background-color: #fff; /* Optional background for the wrapper */
+
+    /* Banner Section */
+
+    .bannr-subheading{
+        font-size: 24px;
+        font-weight: 500;
+        color: #6a7972;
+        margin-bottom: 15px;
+    }
+    .banner-heading{
+        font-size: 56px;
+        font-weight: bold;
+        color: #0E0E0E;
+        margin-right: 110px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .banner-btn{
+        background-color: #006A50;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 17px 34px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      .banner{
+
+        display: flex;
+        background-color: #C6E4D6;
+        justify-content: space-between;
+        padding: 80px 50px;
+        border-radius: 24px;
+        margin-top: 20px;
+        
+
+
+      }
+
+      .banner-pic{
+        width: 480px;
+       
+    }
