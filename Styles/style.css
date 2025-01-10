@@ -1,7 +1,9 @@
 
 body {
+    background-color: #f5f5f5;
     font-family: "Fira Sans", serif;
     font-style: normal;
+    
 }
 
 .fira-sans-thin {
@@ -137,3 +139,95 @@ nav{
         width: 480px;
        
     }
+
+    .section-heading{
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .piller-title{
+      font-size: 20px; 
+      font-weight: bold;
+    }
+    .piller-description{
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .pillar-container{
+      display: flex;
+      gap: 24px;
+    }
+
+    .pillar{
+      padding: 24px 24px;
+      border-radius: 16px;
+      background-color: #ee1414;
+      
+    }
+
+    .vision-title{
+      font-size: 20px; 
+      font-weight: bold;
+    }
+    .vision-description{
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .vision-container{
+      display: flex;
+      gap: 24px;
+    }
+    
+    .vision-blue{
+      padding: 32px 32px;
+      border-radius: 16px;
+      background-color: #d5e1f5;
+      
+    }
+
+    .vision-green{
+      padding: 32px 32px;
+      border-radius: 16px;
+      background-color: #c6e4d6;
+      
+    }
+
+    .vision-yellow{
+      padding: 32px 32px;
+      border-radius: 16px;
+      background-color: #f7ebcf;
+      
+    }
+
+    .blue-btn{
+      background-color: #5490F5;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 11px 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    .green-btn{
+      background-color: #09A15C;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 11px 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    .yellow-btn{
+      background-color: #FFC239;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 11px 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    
