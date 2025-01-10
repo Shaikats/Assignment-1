@@ -1,0 +1,95 @@
+
+body {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+}
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.body{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+  /* Navbar Styles */
+
+  .nav-title{
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .heading-color{
+    color: #0E0E0E;
+  }
+
+  .header-btn{
+    background-color: #ffffff;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-color: #006A50;
+    border-radius: 8px;
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 1300px; /* Set a fixed width for the page */
+    margin: 0 auto; /* Center the content horizontally */
+    background-color: #fff; /* Optional background for the wrapper */
