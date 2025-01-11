@@ -83,6 +83,7 @@ body {
     padding: 15px 30px;
     border-color: #006A50;
     border-radius: 8px;
+    
   }
 
 nav{
@@ -92,7 +93,7 @@ nav{
 }
 
 .wrapper {
-    width: 1300px; /* Set a fixed width for the page */
+    width: 1280px; /* Set a fixed width for the page */
     margin: 0 auto; /* Center the content horizontally */
     background-color: #fff; /* Optional background for the wrapper */
 
@@ -148,9 +149,10 @@ nav{
       font-size: 20px; 
       font-weight: bold;
     }
-    .piller-description{
+    .description{
       font-size: 16px;
       font-weight: 400;
+      color: #0E0E0E;
     }
 
     .pillar-container{
@@ -165,13 +167,9 @@ nav{
       
     }
 
-    .vision-title{
+    .card-title{
       font-size: 20px; 
       font-weight: bold;
-    }
-    .vision-description{
-      font-size: 16px;
-      font-weight: 400;
     }
 
     .vision-container{
@@ -191,7 +189,7 @@ nav{
       border-radius: 16px;
       background-color: #c6e4d6;
       
-    }
+    } 
 
     .vision-yellow{
       padding: 32px 32px;
@@ -208,6 +206,7 @@ nav{
         padding: 11px 20px;
         border-radius: 8px;
         margin-top: 20px;
+        border: none;
     }
 
     .green-btn{
@@ -218,6 +217,7 @@ nav{
         padding: 11px 20px;
         border-radius: 8px;
         margin-top: 20px;
+        border: none;
     }
 
     .yellow-btn{
@@ -228,6 +228,75 @@ nav{
         padding: 11px 20px;
         border-radius: 8px;
         margin-top: 20px;
+        border: none;
     }
 
-    
+    .testimonial{
+      margin-top: 32px;
+      padding: 32px 32px;
+      border-radius: 16px;
+      background-color: #dfe7e3;
+      position: relative;
+      background-image: url('https://raw.githubusercontent.com/Shaikats/Assignment-1/refs/heads/main/assets/quote-bg.png');
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-size: 54px 54px;
+      background-position: 34px 34px; 
+
+    }
+
+
+.survey{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+    .table-container {
+      max-width: 1220px;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+      overflow: hidden;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .survey-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+  }
+  
+  .survey-table thead th {
+      background-color: #d9f0e3;
+      color: #333;
+      padding: 24px;
+      font-weight: bold;
+  }
+  
+  .survey-table tbody td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      vertical-align: middle;
+  }
+  
+  .survey-table tbody td:last-child {
+      text-align: center;
+  }
+  
+  .dropdown {
+      font-size: 16px;
+      font-weight: 600;
+      padding: 8px 12px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+      background-color: #ffffff;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      background-color: #daf1e7;
+  }
+
+  .full-table{
+    background-color: aquamarine;
+    padding: 32px 32px;
+    border-radius: 8px;
+  }
