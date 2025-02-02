@@ -37,4 +37,4 @@ This project, **Bangladesh 2.0**, aims to showcase the vision for a modern, tech
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/bangladesh-2.0.git
+   git clone https://github.com/shaikats/assignment-1.git
